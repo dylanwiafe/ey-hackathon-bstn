@@ -4,7 +4,7 @@
     height: 112px;
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 5rem 1rem 5rem;
 
     &__menu{
         display: flex;
@@ -21,8 +21,14 @@
     }
 
     &__li{
-        font-family: "Poppins Bold";
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
         padding-left: 3rem;
+        color: #0F4162;
     }
 
     &__btns{
@@ -37,7 +43,7 @@
         width: 167px;
         height: 52px;
         background: #0C72AD;
-        border-radius: 16px;
+        border-radius: 28px;
         border: none;
         font-family: "Poppins Thin";
         font-style: normal;
