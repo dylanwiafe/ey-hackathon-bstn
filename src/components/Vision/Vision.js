@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "/Vision.scss";
+import "./Vision.scss";
 class Vision extends Component {
   render() {
     return (
