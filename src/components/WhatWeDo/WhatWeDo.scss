@@ -1,0 +1,12 @@
+.what-we-do {
+  display: flex;
+
+  &__col--copy {
+    width: 75%;
+    padding: 1rem;
+  }
+  &__col--photo {
+    width: 25%;
+    padding: 1rem;
+  }
+}
