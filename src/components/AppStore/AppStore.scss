@@ -1,0 +1,52 @@
+.appstore{
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    &__background{
+        background-color:#DDECF6;
+        width: 868px; height:416px;
+        display: flex;
+        justify-content: row;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: row;
+    }
+
+    &__title{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #0C72AD;
+        padding: 1rem 0rem 0rem 2rem;
+        margin-bottom: 0;
+    }
+
+    &__subtitle{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        padding: 0rem 0rem 0rem 2rem;
+        margin: 0;
+    }
+
+    &__download{
+        padding: 12rem 0rem 0rem 2rem;
+    }
+
+    &__iphone {
+        height: 342px;
+        width: 169px;
+        padding: 2rem 0rem 0rem 12rem;
+    }
+}
