@@ -1,0 +1,19 @@
+.reviews{
+    &__stars{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__reviews{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    &__txt{
+        width: 33%;
+        padding-right: 3rem;
+        padding-left: 6rem;
+    }
+}
