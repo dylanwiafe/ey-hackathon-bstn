@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import "/Values.scss";
+import "./Values.scss";
+
 class Values extends Component {
   render() {
     return (

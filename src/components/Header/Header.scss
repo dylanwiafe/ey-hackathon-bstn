@@ -1,1 +1,56 @@
+@import "../../styles/typography";
 
+.header{
+    height: 112px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem 1rem 5rem;
+
+    &__menu{
+        display: flex;
+    }
+
+    &__profile{
+        width: 72px;
+        height: 72px;
+    }
+
+    &__ul{
+        list-style: none;
+        display: flex;
+    }
+
+    &__li{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        padding-left: 3rem;
+        color: #0F4162;
+    }
+
+    &__btns{
+        display: flex;
+    }
+
+    &__btn-wrapper{
+        padding-right: 1rem;
+    }
+
+    &__btn{
+        width: 167px;
+        height: 52px;
+        background: #0C72AD;
+        border-radius: 28px;
+        border: none;
+        font-family: "Poppins Thin";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }  
+}
