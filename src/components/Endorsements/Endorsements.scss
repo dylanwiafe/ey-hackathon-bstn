@@ -1,0 +1,44 @@
+.endorsements{
+
+    &__title{
+        padding-top: 2rem;
+        padding-left: 7rem;
+        font-family: "Poppins Bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #0C72AD;
+    }
+
+    &__logos{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    &__logos-forbes{
+        width: 100px;
+        height: 28.12px;
+    }
+
+    &__logos-BI{
+        width: 100px;
+        height: 45.54px;
+    }
+
+    &__logos-NYT{
+        width: 100px;
+        height: 56.25px;
+    }
+
+    &__logos-CDC{
+        width: 65.57px;
+        height: 40px;
+    }
+
+    &__logos-oprah{
+        width: 88px;
+        height: 38px;
+    }
+}
