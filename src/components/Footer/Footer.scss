@@ -1,16 +1,18 @@
 .footer{
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 10rem 1rem 10rem;
+    padding: 3rem 12rem 1rem 8rem;
     background: #DDECF6;
 
-    &__terms{
-        font-family: "Poppins Bold";
+    &__text{
+        font-family: Poppins;
         font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 21px;
+        color: #0C72AD;
+        
     }
 
     &__social{
@@ -26,6 +28,9 @@
     }
 
     &__instagram{
+        padding-right: 1rem;
+    }
+    &__twitter{
         padding-right: 1rem;
     }
 }
