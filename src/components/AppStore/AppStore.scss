@@ -17,16 +17,17 @@
     &__content{
         display: flex;
         justify-content: row;
+        padding-left: 6rem;
     }
 
     &__title{
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
-        font-size: 24px;
+        font-size: 32px;
         line-height: 36px;
         color: #0C72AD;
-        padding: 1rem 0rem 0rem 2rem;
+        padding: 4rem 0rem 0rem 2rem;
         margin-bottom: 0;
     }
 
@@ -41,12 +42,12 @@
     }
 
     &__download{
-        padding: 12rem 0rem 0rem 2rem;
+        padding: 6rem 0rem 10rem 2rem;
     }
 
     &__iphone {
         height: 342px;
         width: 169px;
-        padding: 2rem 0rem 0rem 12rem;
+        padding: 2rem 0rem 0rem 10rem;
     }
 }
