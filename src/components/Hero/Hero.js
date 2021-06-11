@@ -7,6 +7,7 @@ class Hero extends Component {
     return (
       <div className="Hero">
         <div className="Hero__col--content">
+          {/* GIF COMING FROM UX TEAM */}
           <h1 className="Hero__heading">Lorem, ipsum.</h1>
           <p className="Hero__tagline">
             Lorem ipsum dolor sit amet consectetur.
