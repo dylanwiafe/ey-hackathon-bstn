@@ -1,0 +1,18 @@
+.Hero {
+  &__col--content {
+    width: 25%;
+  }
+  // &__heading{
+
+  // }
+  // &__tagline{
+
+  // }
+  &__cta {
+    background-color: #0c72ad;
+  }
+  &__col--bg {
+    width: 75%;
+    background-color: #c4c4c4;
+  }
+}
