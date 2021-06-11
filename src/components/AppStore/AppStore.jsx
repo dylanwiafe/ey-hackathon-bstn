@@ -12,9 +12,11 @@ function AppStore() {
                         <div>
                             <p className="appstore__title">App Store</p>
                             <p className="appstore__subtitle">Do your part for society. THANKS.</p>
-                            <img className="appstore__download" src={Download} />
+                            <a href="https://www.apple.com/ca/app-store/">
+                                <img className="appstore__download" src={Download} alt="Download Now!"/>
+                            </a>
                         </div>
-                        <img className="appstore__iphone" src={iPhone} />
+                        <img className="appstore__iphone" src={iPhone} alt="App Demo"/>
                     </div>
                 </div>
             </div>
