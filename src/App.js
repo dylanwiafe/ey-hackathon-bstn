@@ -1,6 +1,6 @@
 import React from "react";
-import HomePage from "./pages/HomePage/Homepage"
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import HomePage from "./pages/HomePage/Homepage";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class App extends React.Component {
           </Switch>
         </BrowserRouter>
       </div>
-    )
+    );
   }
 }
 

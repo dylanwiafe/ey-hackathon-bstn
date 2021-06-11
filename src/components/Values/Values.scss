@@ -1,0 +1,14 @@
+.values {
+  display: flex;
+  justify-content: center;
+
+  &__col--copy {
+    width: 25%;
+    padding-left: 8rem;
+    padding-top: 3rem;
+  }
+  &__col--photo {
+    padding: 1rem;
+    width: 25%;
+  }
+}

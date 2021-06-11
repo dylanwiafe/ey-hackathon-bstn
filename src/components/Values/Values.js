@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Values.scss";
-
+import templateImage from "../../assets/images/unit__content__model__1.png";
 class Values extends Component {
   render() {
     return (
@@ -13,7 +13,7 @@ class Values extends Component {
           </p>
         </div>
         <div className="values__col--photo">
-          <img className="values__img" src="" alt="" />
+          <img className="what-we-do__img" alt="values" src={templateImage} />
         </div>
       </div>
     );

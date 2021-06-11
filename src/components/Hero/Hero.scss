@@ -1,18 +1,41 @@
 .Hero {
-    &__col--content {
-      width: 25%;
-    }
-    // &__heading{
-  
-    // }
-    // &__tagline{
-  
-    // }
-    &__cta {
-      background-color: #0c72ad;
-    }
-    &__col--bg {
-      width: 75%;
-      background-color: #c4c4c4;
-    }
+  background-image: url("../../assets/images/unity__hero__model__one.png");
+
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100vh;
+
+  &__col--content {
+    width: 25%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
   }
+  &__heading {
+    font-size: 48px;
+    color: #0c72ad;
+  }
+  &__tagline {
+    font-size: 20px;
+  }
+  &__cta {
+    width: 167px;
+    height: 52px;
+    background: #0c72ad;
+    border-radius: 28px;
+    border: none;
+    font-family: "Poppins Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__col--bg {
+    width: 75%;
+    background-color: #c4c4c4;
+  }
+}
