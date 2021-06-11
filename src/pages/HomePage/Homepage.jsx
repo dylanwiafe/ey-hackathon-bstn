@@ -16,7 +16,7 @@ function Homepage() {
       <Hero />
       <Vision />
       <Values />
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
       <Endorsements />
       <Reviews />
       <AppStore />
