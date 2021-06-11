@@ -36,13 +36,13 @@ function Reviews() {
             </div>
             <div className="reviews__reviews">
                 <div className="reviews__txt">
-                    <p>I had a great experience using this app. The Dr. I spoke with over video chat was very helpful and professional. Had zero issues connecting via Wi-Fi. Start to finish it took less than an hour, probably closer to 1/2 an hour. Like clockwork when spring hits I end up with a Sinus Infection.</p>
+                    <p>This app was a godsend! I got a response less than 24 hours and meds soon after messaging with a doctor. It was speedy and I would definitely use again!</p>
                 </div>
                 <div className="reviews__txt">
-                    <p>This app was a godsend! I was suffering with a bad UTI and no insurance. I got a response less than 24 hours and meds soon after messaging with a doctor. It was speedy and I would definitely use again!</p>
+                    <p>I had a great experience using this app. The Dr. I spoke with over video chat was very helpful and professional. Start to finish it took less than an hour.</p>
                 </div>
                 <div className="reviews__txt">
-                    <p>Fantastic! I have been having UTI symptoms and absolutely dreading taking 5 kids to an expensive emergency room or urgent care. I don't have insurance currently to make it that much more difficult. I filled out all the information on the app and within 2 hours of the office opening recieved a phone call from the doctor. </p>
+                    <p>Fantastic! I was dreading taking 5 kids to an expensive emergency room and I don't have insurance. Within 2 hours of the office opening I recieved a phone call from the doctor. </p>
                 </div>
             </div>
         </div>

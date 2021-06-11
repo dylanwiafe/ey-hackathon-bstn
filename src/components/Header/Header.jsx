@@ -20,7 +20,7 @@ function Header() {
                 <img className="header__btn-globe" src={Globe} alt="Worldwide" />
                 <div className="header__btns">
                     <div className="header__btn-wrapper">
-                        <button className="header__btn">Login</button>
+                        <button className="header__btn">Log In</button>
                     </div>
                 </div>
             </div>
