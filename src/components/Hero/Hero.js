@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Hero.scss";
+import "../../App.scss"
 
 class Hero extends Component {
   render() {
